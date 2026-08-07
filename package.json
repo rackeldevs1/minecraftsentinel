@@ -1,0 +1,23 @@
+{
+  "name": "base-watcher",
+  "version": "1.0.0",
+  "description": "Mineflayer bot that stands at a base on a cracked anarchy server and reports every player it sees to a Discord webhook.",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node --test --test-force-exit"
+  },
+  "dependencies": {
+    "minecraft-data": "^3.111.0",
+    "minecraft-protocol": "^1.66.2",
+    "mineflayer": "^4.34.0",
+    "mineflayer-pathfinder": "^2.4.5",
+    "socks": "^2.8.9",
+    "vec3": "^0.2.0"
+  },
+  "license": "MIT"
+}
