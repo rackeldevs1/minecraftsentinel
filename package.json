@@ -1,7 +1,7 @@
 {
-  "name": "base-watcher",
+  "name": "blackcat",
   "version": "1.0.0",
-  "description": "Mineflayer bot that stands at a base on a cracked anarchy server and reports every player it sees to a Discord webhook.",
+  "description": "BlackCat Sentinel bot to watch out for EVERYTHING. Made by rackeldevs. Uses Mineflayer as backend.",
   "main": "src/index.js",
   "type": "commonjs",
   "engines": {

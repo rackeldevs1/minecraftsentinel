@@ -1,9 +1,5 @@
 'use strict';
 
-// The "post": the block the bot stands on and watches from.
-//
-// Set by an admin with ?setup (the bot TPAs to them and anchors where it
-// lands), persisted to data/anchor.json so a reconnect resumes the same watch.
 
 const fs = require('fs');
 const path = require('path');

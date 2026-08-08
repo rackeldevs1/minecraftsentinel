@@ -1,7 +1,7 @@
 # base watcher
 
-A Minecraft bot that stands guard at your base on a cracked (offline-mode)
-anarchy server and posts every player it sees to a Discord webhook.
+Minecraft Node.js bot made exclusively for BlackCat Clan by `rackeldevs`
+## BlackCat is love, blackcat is life
 
 You place it in game — walk to the spot, whisper it `?setup`, accept the
 teleport it sends you, and it stands there from then on. It survives kicks,

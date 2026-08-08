@@ -1,8 +1,5 @@
 'use strict';
 
-// Offline tests: no server, no network. They pin the behaviours that are easy
-// to break silently — admin filtering, the one-alert ?test window, the notify
-// cooldowns, the 6b6t TPA strings, and the absence of bed fields on the embed.
 
 const test = require('node:test');
 const assert = require('node:assert');
